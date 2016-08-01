@@ -1,3 +1,15 @@
+/**
+ * This is the Term Project for Network Programming with Java 
+ * AUTHOR : RONAK PANAHI
+ * Date : December 2015
+ * This program simulates the operation of a Chat server. 
+ * Each user (client) logs into the system (server); and typed 
+ * messages by each user is relayed or broadcast to each of the
+ * other users by the server. You need to set up a server on a 
+ * vacant port. The service should allow multiple connections 
+ * from users. 
+*/
+
 package chatter;
 
 import java.io.*;
@@ -74,7 +86,8 @@ class ChatHandler extends Thread
  public void run()
  {   try
      {  
-	 	 in = new BufferedReader(new InputStreamReader(toClient.getInputStream()));
+     	
+	 in = new BufferedReader(new InputStreamReader(toClient.getInputStream()));
          out = new PrintWriter(toClient.getOutputStream(),true);
          out.println("*** Welcome to the ChatServer ***");
          out.println("Type BYE to end the session");
