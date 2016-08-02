@@ -1,8 +1,10 @@
 /**
- * 
- * nslookup is a Unix utility that converts hostnames to IP addresses 
- * and IP addresses to hostnames. It has two modes: interactive and 
- * command line. If you enter a hostname on the command line, nslookup
+ * This is a Lab project for Network Programming
+ * AUTHOR: RONAK PANAHI
+ * Date: October 2015
+ * Problem Description: nslookup is a Unix utility that converts hostnames to IP  
+ * addresses and IP addresses to hostnames. It has two modes: interactive
+ * and command line. If you enter a hostname on the command line, nslookup
  * prints the IP address of that host. If you enter an IP address on 
  * the command line, nslookup prints the hostname. If no hostname or 
  * IP address is entered  on the command line, nslookup enters interactive
